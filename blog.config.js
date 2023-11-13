@@ -310,13 +310,7 @@ const BLOG = {
   COMMENT_WEBMENTION_TWITTER_USERNAME: process.env.NEXT_PUBLIC_TWITTER_USERNAME || '',
   COMMENT_WEBMENTION_TOKEN: process.env.NEXT_PUBLIC_WEBMENTION_TOKEN || '',
 
- <script src="https://utteranc.es/client.js"
-        repo="3175419189/NotionNext"
-        issue-term="pathname"
-        theme="icy-dark"
-        crossorigin="anonymous"
-        async>
-</script> // <---- 评论插件
+  // <---- 评论插件
 
   // ----> 站点统计
   ANALYTICS_VERCEL: process.env.NEXT_PUBLIC_ANALYTICS_VERCEL || false, // vercel自带的统计 https://vercel.com/docs/concepts/analytics/quickstart https://github.com/tangly1024/NotionNext/issues/897
