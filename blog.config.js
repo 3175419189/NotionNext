@@ -243,7 +243,7 @@ const BLOG = {
 
   // utterance
   COMMENT_UTTERRANCES_REPO:
-        process.env.NEXT_PUBLIC_COMMENT_UTTERRANCES_REPO || '', // 你的代码仓库名， 例如我是 'tangly1024/NotionNext'； 更多文档参考 https://utteranc.es/
+        process.env.NEXT_PUBLIC_COMMENT_UTTERRANCES_REPO || '3175419189/NotionNext', // 你的代码仓库名， 例如我是 'tangly1024/NotionNext'； 更多文档参考 https://utteranc.es/
 
   // giscus @see https://giscus.app/
   COMMENT_GISCUS_REPO: process.env.NEXT_PUBLIC_COMMENT_GISCUS_REPO || '', // 你的Github仓库名 e.g 'tangly1024/NotionNext'
@@ -310,7 +310,13 @@ const BLOG = {
   COMMENT_WEBMENTION_TWITTER_USERNAME: process.env.NEXT_PUBLIC_TWITTER_USERNAME || '',
   COMMENT_WEBMENTION_TOKEN: process.env.NEXT_PUBLIC_WEBMENTION_TOKEN || '',
 
-  // <---- 评论插件
+ <script src="https://utteranc.es/client.js"
+        repo="3175419189/NotionNext"
+        issue-term="pathname"
+        theme="icy-dark"
+        crossorigin="anonymous"
+        async>
+</script> // <---- 评论插件
 
   // ----> 站点统计
   ANALYTICS_VERCEL: process.env.NEXT_PUBLIC_ANALYTICS_VERCEL || false, // vercel自带的统计 https://vercel.com/docs/concepts/analytics/quickstart https://github.com/tangly1024/NotionNext/issues/897
